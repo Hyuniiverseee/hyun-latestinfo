@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: 'Cover';
+    src: url(CoveredByYourGrace-Regular.ttf);
+}
+
+body {
+    background-color: #2C3D63;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.title {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 44px;
+}
+
+
+@media only screen and (min-width: 150px) {
+    .title {
+        font-size: 32px;
+        font-display: block;
+
+        width: 99%;
+        margin: 140px 30px 30px 0px;
+
+        background-color: #2C3D63;
+        color: #ADDCCA;
+        border: #add solid 2px ;
+
+        text-align: center;
+
+    }
+    
+    .researchers li {
+        text-decoration: none;
+        text-align: justify;
+        display: block;
+        text-align: center;
+        color: #ADDCCA;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+
+        margin: 10px;
+    }
+
+    .researchers {
+        width: 80%;
+        border-top: #ADDCCA solid 5px;
+        margin: 190px auto 130px;
+
+    }
+
+    .content {
+        width: 100%;
+        border-top: #ADDCCA solid 5px;
+        display: block;
+        margin: auto;
+
+    }
+    
+    .content-1 img {
+        background-color: #F7F8F3;
+        height: 120px;
+        margin-left: 90px;
+        padding: 15px;
+        border: #ADDCCA solid 3px;
+        border-radius: 90px;
+    }
+    
+    .content-1 {
+        margin-top: 50px;
+        border: #ADDCCA solid 3px;
+        padding: 30px;
+        background-color: #F7F8F3;
+    
+    }
+
+    .content-1 h1 {
+        font-family: Cover, sans-serif, Arial, Helvetica;
+        font-size: 40px;
+        font-weight: bold;
+        color: #2C3D63;
+    }
+
+    .content-1 p {
+        margin: 5px auto 5px;
+        font-family: Cover, sans-serif, Arial, helvetica;
+        font-size: 20px;
+        color: #2C3D63;
+    }
+
+    .top-image img{
+        height: 75px;
+    }
+
+    .bottom-image {
+        margin-left: 110px;
+    }
+
+    .bottom-image img{
+        height: 75px;
+    }
+
+    .content-2 {
+        border: #ADDCCA solid 3px;
+        margin: 10px 30px 10px 0px;
+        padding: 10px;
+        width: 80%;
+        background-color: #F7F8F3;
+
+    }
+
+    .content-2 h1 {
+        padding: 5px;
+        font-size: 40px;
+        font-family: Cover, sans-serif, Arial, helvetica;
+
+        color: #2C3D63;
+    }
+
+    .content-2 p {
+        margin: 10px;
+        font-size: 20px;
+        font-family: Cover, sans-serif, Arial, helvetica;
+
+        color: #2C3D63;
+    }
+
+    .content3-img {
+        margin-top: 10px;
+        margin-left: 50px ;
+        margin-bottom: 10px;
+    }
+
+    .content3-img img {
+        height: 180px;
+        float: center;
+    }
+
+    .content-3 {
+        border: #ADDCCA solid 3px;
+        width: 80%;
+        margin-left: 70px;
+        background-color: #F7F8F3;
+    }
+
+    .content-3 h1 {
+        padding: 5px;
+        font-size: 40px;
+
+        color: #2C3D63;
+        font-family: Cover, sans-serif, Arial, helvetica;
+    }
+
+    .content-3 p {
+        margin: 10px;
+        font-size: 20px;
+
+        font-family: Cover, sans-serif, Arial, helvetica;
+        color: #2C3D63;
+    }
+
+    .content4-img img {
+        border: #ADDCCA solid 2px;
+        height: 140px;
+        width: 100%;
+    }
+
+    .content7-img img{
+        width: 99.8%;
+        height: 280px;
+    }
+
+    .content-7 {
+        width: 98.5%;
+        border: #ADDCCA solid 3px;
+        display: block;
+        margin: 10px 0px 15px 0px;
+        background-color: #F7F8F3;
+    }
+
+    .infographic img {
+        margin-top: 30px;   
+        border: #ADDCCA solid 3px;
+        width: 98%;
+
+    }
+
+    .content-7 h1 {
+        padding: 5px;
+        font-size: 40px;
+
+        font-family: Cover, sans-serif, Arial, helvetica;
+        color: #2C3D63;
+    }
+
+    .content-7 p {
+        margin: 5px;
+        padding: 5px;
+        font-size: 20px;
+
+        font-family: Cover, sans-serif, Arial, helvetica;
+        color: #2C3D63;
+    }
+}
